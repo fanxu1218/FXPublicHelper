@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FXPublicHelper_Example' do
+  pod 'FXPublicHelper', :path => '../'
+
+  target 'FXPublicHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
