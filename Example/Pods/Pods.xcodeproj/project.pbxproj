@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBA91F3DDB2628D1BCAAF003ABDA946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		29073B51A41BA550F3DC80E61B7A62D3 /* Pods-FXPublicHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D357F9F94CC973BDF0ED689C3EE139A2 /* Pods-FXPublicHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37D719A8AEFDA28A93C8471ADE40F01B /* FXPublicHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9997EF598C60CBC155651FCE7B6BE /* FXPublicHelper-dummy.m */; };
+		94C9BB982B3BD0D117AF5F33F183CB19 /* FXPublicHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D809AFA5D3CC492606EF7210CFC989C8 /* FXPublicHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B180D91E334858677408552505AA836F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		B2416F06B6F2A59CA461F032524DA6FF /* FXPublicHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 030480B902F93CAD0053A8EB3B667A3D /* FXPublicHelper-dummy.m */; };
 		B524A995598F3F5379FC52F8C7708586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C3432C5E50A42AD96A129904EF2353FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		D10F2EEB9A221226963369C2A2D46221 /* Pods-FXPublicHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA568584E66A7AE8384C45A12F80C7AF /* Pods-FXPublicHelper_Example-dummy.m */; };
+		DA3F7E9B1EE31D2CC397C1BCA7CF243A /* PublicHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8E7CEC28286101D8A62B3945A847B0 /* PublicHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD8457F3BB197CF90CD0F11B7173B23 /* PublicHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9414EF06A9AEFDA4EDFBEBD4879 /* PublicHelpers.m */; };
 		EFDCC40B307BE053D8458A94E1E9CA46 /* Pods-FXPublicHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CDEA3F3E3F00FF6038FC53D54B30BF /* Pods-FXPublicHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAC27949F651F4AA28863408C55E8CA2 /* FXPublicHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9BD86FD3A744E46A44B37B63CE2707 /* FXPublicHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF1D232D389450F44D25E88A8536E9FC /* Pods-FXPublicHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A959CCEFD75276C362B85481D4903A /* Pods-FXPublicHelper_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCF55835179B60FE0D120F7ED91B841E;
+			remoteGlobalIDString = 051182BAC8EF8B49B2438DCD7BC9F0BD;
 			remoteInfo = FXPublicHelper;
 		};
 		62C8665D3285C4110AC39A306B6E243B /* PBXContainerItemProxy */ = {
@@ -37,11 +39,14 @@
 
 /* Begin PBXFileReference section */
 		020C5977A26E12ECB996C9D7B66279DE /* Pods-FXPublicHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FXPublicHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0FB4AA81C95A09B2969C258DEF158478 /* FXPublicHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXPublicHelper.xcconfig; sourceTree = "<group>"; };
-		1CC9997EF598C60CBC155651FCE7B6BE /* FXPublicHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXPublicHelper-dummy.m"; sourceTree = "<group>"; };
-		1D9BD86FD3A744E46A44B37B63CE2707 /* FXPublicHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXPublicHelper-umbrella.h"; sourceTree = "<group>"; };
+		030480B902F93CAD0053A8EB3B667A3D /* FXPublicHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FXPublicHelper-dummy.m"; sourceTree = "<group>"; };
+		06F99B379874B051F20B4B2B6F0B0A76 /* FXPublicHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FXPublicHelper.xcconfig; sourceTree = "<group>"; };
+		08A356E003B4F41015462B1CED9309B4 /* FXPublicHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FXPublicHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1511FF1EFE8CD7ED32D0CB271B41C1D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1E611BA92012BA3B5E9366685874B477 /* Pods-FXPublicHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FXPublicHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1EC0B8D3941512A56D50952C5988E997 /* FXPublicHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXPublicHelper-prefix.pch"; sourceTree = "<group>"; };
 		2740DE6324BE5B4381B1E9467F19DFFB /* Pods-FXPublicHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FXPublicHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		393A1578BA8C7C7F6ECE78A26FF92A44 /* FXPublicHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FXPublicHelper.modulemap; sourceTree = "<group>"; };
 		39CF1EB20AA3352BB935427D36EEED72 /* Pods-FXPublicHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FXPublicHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3FB967D5D59FFDCAB7FD2BE53B972C20 /* FXPublicHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXPublicHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402C9DD80EF66195AF840328F0CAE58E /* Pods-FXPublicHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FXPublicHelper_Example.modulemap"; sourceTree = "<group>"; };
@@ -49,37 +54,34 @@
 		476A7CB7523A970E222B6779A7B4F0A7 /* Pods-FXPublicHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FXPublicHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		491D8756BDD1CCB42451BC37E5B25A1C /* Pods-FXPublicHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FXPublicHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50F458A46B97F73A4E75265FF5780EFF /* Pods-FXPublicHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FXPublicHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F7058C1242227C700BCAF6617F8F71E /* FXPublicHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FXPublicHelper.modulemap; sourceTree = "<group>"; };
+		5DA1CCE5EDC68C78A462DF121DA20FDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F8E7CEC28286101D8A62B3945A847B0 /* PublicHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublicHelpers.h; path = FXPublicHelper/Classes/PublicHelpers.h; sourceTree = "<group>"; };
 		78630D26D8E56E821E91CD44E6944677 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F3D52610F7170B257BEA140C70DCD77 /* Pods-FXPublicHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FXPublicHelper_Tests-resources.sh"; sourceTree = "<group>"; };
 		8338F44A8FD8674939AB753BD94CCD07 /* Pods-FXPublicHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FXPublicHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9536E02FC72DE9A055FE342AA145F740 /* FXPublicHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FXPublicHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CF0964A54B960424CE8789D4ABD347C /* FXPublicHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXPublicHelper-prefix.pch"; sourceTree = "<group>"; };
 		A73353D664925C995B56CDE38A0F8F83 /* Pods-FXPublicHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FXPublicHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA568584E66A7AE8384C45A12F80C7AF /* Pods-FXPublicHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FXPublicHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		B57635B142C4ACBB13507904DD537CC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9CDEA3F3E3F00FF6038FC53D54B30BF /* Pods-FXPublicHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FXPublicHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BD54089F301941826E1BE34FDFB76B4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA9AA9414EF06A9AEFDA4EDFBEBD4879 /* PublicHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PublicHelpers.m; path = FXPublicHelper/Classes/PublicHelpers.m; sourceTree = "<group>"; };
 		C2A959CCEFD75276C362B85481D4903A /* Pods-FXPublicHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FXPublicHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		D357F9F94CC973BDF0ED689C3EE139A2 /* Pods-FXPublicHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FXPublicHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DCDBE5EF39B085C7DF9313ABE8C459AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D809AFA5D3CC492606EF7210CFC989C8 /* FXPublicHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FXPublicHelper-umbrella.h"; sourceTree = "<group>"; };
 		DDE51C9C94D804ED3C38E68CD624E790 /* Pods_FXPublicHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXPublicHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C4E31925C6F809A8492340CEA1D882 /* Pods-FXPublicHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FXPublicHelper_Example-resources.sh"; sourceTree = "<group>"; };
 		EDF48CCAA06A86C3E10B7622452F582F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DF0D4890928C997504377BBA40A308 /* Pods-FXPublicHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FXPublicHelper_Tests.modulemap"; sourceTree = "<group>"; };
-		FBE22D99224A1F2500AA3536 /* PublicHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PublicHelpers.h; path = FXPublicHelper/Classes/PublicHelpers.h; sourceTree = "<group>"; };
-		FBE22D9A224A1F2500AA3536 /* PublicHelpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PublicHelpers.m; path = FXPublicHelper/Classes/PublicHelpers.m; sourceTree = "<group>"; };
 		FE7CF364EDF9D646FC8D3C02412E5929 /* Pods_FXPublicHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FXPublicHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEEE160B36E181485DB43A612E88B3D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74C11D1F7B94ACD5BB80D99F6AAFDAF9 /* Frameworks */ = {
+		4FD4EB8458EA62C671CF269A87B66CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBA91F3DDB2628D1BCAAF003ABDA946 /* Foundation.framework in Frameworks */,
+				C3432C5E50A42AD96A129904EF2353FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,28 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2420993FFE8A2ECCFBDD94BA5E95BD1C /* Pod */ = {
+		3FEC5F80F172CDA76D49987B11CB1669 /* FXPublicHelper */ = {
 			isa = PBXGroup;
 			children = (
-				9536E02FC72DE9A055FE342AA145F740 /* FXPublicHelper.podspec */,
-				DCDBE5EF39B085C7DF9313ABE8C459AE /* LICENSE */,
-				BD54089F301941826E1BE34FDFB76B4D /* README.md */,
+				6F8E7CEC28286101D8A62B3945A847B0 /* PublicHelpers.h */,
+				BA9AA9414EF06A9AEFDA4EDFBEBD4879 /* PublicHelpers.m */,
+				E86E786EC889805383BA08BC45EDCE48 /* Pod */,
+				C9D0CEBFA7A555B3F5D5BA349CC614CF /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3EBEAFA4E608E722F418E49079BF89BB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F7058C1242227C700BCAF6617F8F71E /* FXPublicHelper.modulemap */,
-				0FB4AA81C95A09B2969C258DEF158478 /* FXPublicHelper.xcconfig */,
-				1CC9997EF598C60CBC155651FCE7B6BE /* FXPublicHelper-dummy.m */,
-				9CF0964A54B960424CE8789D4ABD347C /* FXPublicHelper-prefix.pch */,
-				1D9BD86FD3A744E46A44B37B63CE2707 /* FXPublicHelper-umbrella.h */,
-				FEEE160B36E181485DB43A612E88B3D5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FXPublicHelper";
+			name = FXPublicHelper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -132,18 +122,6 @@
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		507BED6F1EF21906013A8080951AE211 /* FXPublicHelper */ = {
-			isa = PBXGroup;
-			children = (
-				FBE22D99224A1F2500AA3536 /* PublicHelpers.h */,
-				FBE22D9A224A1F2500AA3536 /* PublicHelpers.m */,
-				2420993FFE8A2ECCFBDD94BA5E95BD1C /* Pod */,
-				3EBEAFA4E608E722F418E49079BF89BB /* Support Files */,
-			);
-			name = FXPublicHelper;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6632237021C4B05201627CFD32A641A0 /* Targets Support Files */ = {
@@ -159,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A24FF9110C1BADBF96FDC25FB238D2D2 /* Development Pods */,
+				C04B57B1A9AED3C8067F4C19D6252FD0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A20015C933B3312AF9B3E55B6FB971CB /* Products */,
 				6632237021C4B05201627CFD32A641A0 /* Targets Support Files */,
@@ -194,20 +172,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A24FF9110C1BADBF96FDC25FB238D2D2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				507BED6F1EF21906013A8080951AE211 /* FXPublicHelper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04B57B1A9AED3C8067F4C19D6252FD0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC5F80F172CDA76D49987B11CB1669 /* FXPublicHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9D0CEBFA7A555B3F5D5BA349CC614CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				393A1578BA8C7C7F6ECE78A26FF92A44 /* FXPublicHelper.modulemap */,
+				06F99B379874B051F20B4B2B6F0B0A76 /* FXPublicHelper.xcconfig */,
+				030480B902F93CAD0053A8EB3B667A3D /* FXPublicHelper-dummy.m */,
+				1EC0B8D3941512A56D50952C5988E997 /* FXPublicHelper-prefix.pch */,
+				D809AFA5D3CC492606EF7210CFC989C8 /* FXPublicHelper-umbrella.h */,
+				B57635B142C4ACBB13507904DD537CC4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FXPublicHelper";
 			sourceTree = "<group>";
 		};
 		CFCAE6E698A9723FCF98BD449E6CF3E1 /* Pods-FXPublicHelper_Tests */ = {
@@ -228,6 +220,16 @@
 			path = "Target Support Files/Pods-FXPublicHelper_Tests";
 			sourceTree = "<group>";
 		};
+		E86E786EC889805383BA08BC45EDCE48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08A356E003B4F41015462B1CED9309B4 /* FXPublicHelper.podspec */,
+				1511FF1EFE8CD7ED32D0CB271B41C1D8 /* LICENSE */,
+				5DA1CCE5EDC68C78A462DF121DA20FDD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,11 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		683887E3E98F7971E854FF5D4D5119C3 /* Headers */ = {
+		4FB3B24974E42B0A70C3B67E9ADCF662 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC27949F651F4AA28863408C55E8CA2 /* FXPublicHelper-umbrella.h in Headers */,
+				94C9BB982B3BD0D117AF5F33F183CB19 /* FXPublicHelper-umbrella.h in Headers */,
+				DA3F7E9B1EE31D2CC397C1BCA7CF243A /* PublicHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +261,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		051182BAC8EF8B49B2438DCD7BC9F0BD /* FXPublicHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB20557D16A28C2BAF2368818E30E3C /* Build configuration list for PBXNativeTarget "FXPublicHelper" */;
+			buildPhases = (
+				4FB3B24974E42B0A70C3B67E9ADCF662 /* Headers */,
+				6B249DD77F2666A6361AF59049E84F26 /* Sources */,
+				4FD4EB8458EA62C671CF269A87B66CDF /* Frameworks */,
+				256057408CA8A478752C93B0951E1A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXPublicHelper;
+			productName = FXPublicHelper;
+			productReference = 3FB967D5D59FFDCAB7FD2BE53B972C20 /* FXPublicHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4DF069BE9C6F0B4DBDDB8EB34ED01FE7 /* Pods-FXPublicHelper_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0B8C59ACD9F61C698B14A54ABDB6B04 /* Build configuration list for PBXNativeTarget "Pods-FXPublicHelper_Example" */;
@@ -296,24 +317,6 @@
 			productReference = FE7CF364EDF9D646FC8D3C02412E5929 /* Pods_FXPublicHelper_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCF55835179B60FE0D120F7ED91B841E /* FXPublicHelper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EDBD33A75524A8B47C4A6D74CCEB867 /* Build configuration list for PBXNativeTarget "FXPublicHelper" */;
-			buildPhases = (
-				683887E3E98F7971E854FF5D4D5119C3 /* Headers */,
-				DF4680056BEE255D1E6FCA501669F09F /* Sources */,
-				74C11D1F7B94ACD5BB80D99F6AAFDAF9 /* Frameworks */,
-				3D5A2DE31F19A542275D3D29EF806A83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FXPublicHelper;
-			productName = FXPublicHelper;
-			productReference = 3FB967D5D59FFDCAB7FD2BE53B972C20 /* FXPublicHelper.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -321,22 +324,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = A20015C933B3312AF9B3E55B6FB971CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCF55835179B60FE0D120F7ED91B841E /* FXPublicHelper */,
+				051182BAC8EF8B49B2438DCD7BC9F0BD /* FXPublicHelper */,
 				4DF069BE9C6F0B4DBDDB8EB34ED01FE7 /* Pods-FXPublicHelper_Example */,
 				BACAA2E032FBA75B4C3EBF31A9365D29 /* Pods-FXPublicHelper_Tests */,
 			);
@@ -344,7 +347,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D5A2DE31F19A542275D3D29EF806A83 /* Resources */ = {
+		256057408CA8A478752C93B0951E1A38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,11 +387,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF4680056BEE255D1E6FCA501669F09F /* Sources */ = {
+		6B249DD77F2666A6361AF59049E84F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D719A8AEFDA28A93C8471ADE40F01B /* FXPublicHelper-dummy.m in Sources */,
+				B2416F06B6F2A59CA461F032524DA6FF /* FXPublicHelper-dummy.m in Sources */,
+				EFD8457F3BB197CF90CD0F11B7173B23 /* PublicHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +402,7 @@
 		C2374EA9A4C3C2477DCED59AD207FC29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FXPublicHelper;
-			target = DCF55835179B60FE0D120F7ED91B841E /* FXPublicHelper */;
+			target = 051182BAC8EF8B49B2438DCD7BC9F0BD /* FXPublicHelper */;
 			targetProxy = 61C085B3852F2DE18ADE1C07D3D72C75 /* PBXContainerItemProxy */;
 		};
 		FAF0E30938BD0BD54F1BDD4B769F90CF /* PBXTargetDependency */ = {
@@ -442,6 +446,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		226312A8A21E92579F6AB5036C4C9AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F99B379874B051F20B4B2B6F0B0A76 /* FXPublicHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FXPublicHelper/FXPublicHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FXPublicHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FXPublicHelper/FXPublicHelper.modulemap";
+				PRODUCT_MODULE_NAME = FXPublicHelper;
+				PRODUCT_NAME = FXPublicHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		2B51BA31AD918FBC020619DE4C05619C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -511,10 +546,41 @@
 			};
 			name = Release;
 		};
+		6DD9790D6F58409F8A6785497307FC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F99B379874B051F20B4B2B6F0B0A76 /* FXPublicHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FXPublicHelper/FXPublicHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FXPublicHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FXPublicHelper/FXPublicHelper.modulemap";
+				PRODUCT_MODULE_NAME = FXPublicHelper;
+				PRODUCT_NAME = FXPublicHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -576,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -638,67 +705,6 @@
 			};
 			name = Debug;
 		};
-		AE683EA75A3403357D7BE0B8A9C7DDCC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB4AA81C95A09B2969C258DEF158478 /* FXPublicHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FXPublicHelper/FXPublicHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FXPublicHelper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FXPublicHelper/FXPublicHelper.modulemap";
-				PRODUCT_MODULE_NAME = FXPublicHelper;
-				PRODUCT_NAME = FXPublicHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C77794A2069FE37E932318C6DDCDD588 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB4AA81C95A09B2969C258DEF158478 /* FXPublicHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FXPublicHelper/FXPublicHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FXPublicHelper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FXPublicHelper/FXPublicHelper.modulemap";
-				PRODUCT_MODULE_NAME = FXPublicHelper;
-				PRODUCT_NAME = FXPublicHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F9494B41659E479BF7FEDDD92AEFAB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8338F44A8FD8674939AB753BD94CCD07 /* Pods-FXPublicHelper_Tests.debug.xcconfig */;
@@ -753,11 +759,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EDBD33A75524A8B47C4A6D74CCEB867 /* Build configuration list for PBXNativeTarget "FXPublicHelper" */ = {
+		CFB20557D16A28C2BAF2368818E30E3C /* Build configuration list for PBXNativeTarget "FXPublicHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C77794A2069FE37E932318C6DDCDD588 /* Debug */,
-				AE683EA75A3403357D7BE0B8A9C7DDCC /* Release */,
+				6DD9790D6F58409F8A6785497307FC5B /* Debug */,
+				226312A8A21E92579F6AB5036C4C9AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -121,9 +121,7 @@
 
 //判断是否纯数字
 + (BOOL) deptNumInputShouldNumber:(NSString *)str;
-
-//纯粹显示
-+ (void)showTextOnly:(NSString *)textShow;
+ 
 
 //时间戳转换为几分钟前等
 + (NSString *) compareCurrentTime:(NSString *)str;

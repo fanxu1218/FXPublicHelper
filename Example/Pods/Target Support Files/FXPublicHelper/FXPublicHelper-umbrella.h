@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PublicHelpers.h"
 
 FOUNDATION_EXPORT double FXPublicHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char FXPublicHelperVersionString[];

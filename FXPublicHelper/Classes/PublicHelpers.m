@@ -545,15 +545,7 @@
     return NO;
 }
 
-//纯粹显示
-+ (void)showTextOnly:(NSString *)textShow{
-    MBProgressHUD *hud = [MBProgressHUD  showHUDAddedTo:BASEAPPDELEGATEVIEW animated:YES];
-    hud.mode = MBProgressHUDModeText;
-    hud.label.text = textShow;
-    hud.margin = 10.0f;
-    hud.removeFromSuperViewOnHide = YES;
-    [hud hideAnimated:YES afterDelay:2];
-}
+ 
 
  //时间戳转换为几分钟前等
 + (NSString *) compareCurrentTime:(NSString *)str{
