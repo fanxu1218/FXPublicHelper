@@ -1,0 +1,6 @@
+framework module Pods_FXPublicHelper_Tests {
+  umbrella header "Pods-FXPublicHelper_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FXPublicHelper (0.1.0)
+
+DEPENDENCIES:
+  - FXPublicHelper (from `../`)
+
+EXTERNAL SOURCES:
+  FXPublicHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FXPublicHelper: 34da0b4bc55270199d7be04518f955636d346504
+
+PODFILE CHECKSUM: d6dfd5b48c6b5081f603dc05da060470767e920c
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module FXPublicHelper {
+  umbrella header "FXPublicHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
